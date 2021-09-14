@@ -1,0 +1,59 @@
+h1, h3, h4 {
+  text-align: center;
+}
+hr {
+  border: 2px solid burlywood;
+}
+body {
+  background: bisque;
+}
+
+.container {
+  display: flex;
+}
+
+.item1 {
+  flex-basis: 100px;
+  margin: 5px;
+}
+
+.item2 {
+  text-align: center;
+  background: #f7f6f2;
+  flex-basis: auto;
+  margin: 5px;
+}
+
+.item3 {
+  text-align: center;
+  flex-basis: auto;
+  margin: 5px;
+  margin-top:150px;
+}
+
+.img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.example {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  margin: auto;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+}
